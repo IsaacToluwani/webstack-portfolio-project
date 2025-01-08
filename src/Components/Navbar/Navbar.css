@@ -7,7 +7,8 @@
   padding: 16px;
 }
 .nav img {
-  height: 70px;
+ width: 150px;
+ height: auto;
 }
 
 .nav-menu ul {
@@ -20,4 +21,9 @@
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.cart img {
+  width: 20px;
+  height: 20px;
 }
