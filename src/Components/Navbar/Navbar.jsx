@@ -17,18 +17,23 @@ function Navbar() {
             <Link to='/'>Home</Link>
           </li>
           <li>
-            <Link to='radios'>Radios</Link>
+            <Link to='radio'>Radios</Link>
           </li>
           <li>
-          <Link to='headphones'>Headphones</Link>
-            </li>
+            <Link to='headphone'>Headphones</Link>
+          </li>
           <li>
-          <Link to='mouse'>Mouse</Link></li>
+            <Link to='mouse'>Mouse</Link>
+          </li>
         </ul>
       </div>
       <div className='cart'>
-        <button className='btn btn:hover'>Login</button>
-        <img src={cart_icon} alt='' />
+        <button className='btn btn:hover'>
+          <Link to='/signin'>Login</Link>
+        </button>
+        <Link to='/cart'>
+          <img src={cart_icon} alt='' />
+        </Link>
       </div>
     </div>
   );
