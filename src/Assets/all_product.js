@@ -167,47 +167,55 @@ const all_product = [
     category: 'radio',
     new_price: 31000,
     old_price: 32000,
-  }, {
+  },
+  {
     id: 19,
     name: 'Red and White Boombox Speaker System',
     image: p19_img,
     category: 'radio',
     new_price: 30000,
     old_price: 32500,
-  }, {
+  },
+  {
     id: 20,
     name: 'Retro Boombox Clock Radio with Alarm, Bluetooth Speaker',
     image: p20_img,
     category: 'radio',
     new_price: 30300,
     old_price: 32000,
-  }, {
+  },
+  {
     id: 21,
     name: 'Retro Boombox Radio Vintage Teal Bluetooth Speaker',
     image: p21_img,
     category: 'radio',
     new_price: 31000,
     old_price: 32000,
-  }, {
+  },
+  {
     id: 22,
     name: 'Retro Boombox with Clock Radio, Bluetooth Speaker',
     image: p22_img,
     category: 'radio',
     new_price: 29000,
     old_price: 32500,
-  }, {
+  },
+  {
     id: 23,
     name: 'Jdeanu Retro Boombox Radio with Clock',
-    image: p19_img,
+    image: p23_img,
     category: 'radio',
     new_price: 30000,
     old_price: 32000,
-  }, {
+  },
+  {
     id: 24,
     name: 'Retro Red Boombox Speaker System',
-    image: p19_img,
+    image: p24_img,
     category: 'radio',
     new_price: 30000,
     old_price: 32000,
   },
 ];
+
+export default all_product;

@@ -1,9 +1,11 @@
 import React from 'react'
+import TrendingItem from '../Components/TrendingItem/TrendingItem'
 
-function Home() {
+
+function home() {
   return (
-    <div>home</div>
+    <TrendingItem />
   )
 }
 
-export default Home
+export default home
