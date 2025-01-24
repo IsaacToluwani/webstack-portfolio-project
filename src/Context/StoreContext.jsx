@@ -10,18 +10,28 @@ const defaultCart = () => {
   }
   return cart;
 };
+console.log('cart:', defaultCart());
 
 const StoreProvider = (props) => {
   const [cartItems, setCartItems] = useState(defaultCart);
 
-  const addToCart = (itemId) => {
+  const addItemToCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
+    console.log('addtoCart:', cartItems);
   };
-  
 
-  console.log(defaultCart());
+  const removeFromCart = (itemId) => {
+    setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
+  };
 
-  const ContextValue = { all_product, cartItems };
+ 
+
+  const ContextValue = {
+    all_product,
+    cartItems,
+    addItemToCart,
+    removeFromCart,
+  };
   console.log(props.children);
 
   return (

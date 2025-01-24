@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './ProductView.css';
 import Item from '../Item/Item';
+import { StoreContext } from '../../Context/StoreContext';
 import StarRating from '../StarRating/StarRating';
 
 function ProductView({ item }) {
+  const { addItemToCart } = useContext(StoreContext);
   return (
     <main className='product-view'>
       <section className='product-view-left'>
@@ -29,14 +31,14 @@ function ProductView({ item }) {
           <div className=''>{item.new_price}</div>
           <div>${item.old_price}</div>
         </div>
-        <div className="choose-size">
+        <div className='choose-size'>
           <h4>Choose Sizes</h4>
           <button>S</button>
           <button>L</button>
           <button>XL</button>
         </div>
-        <div className="add-to-cart">
-          <button>Add To Cart</button>
+        <div className='add-to-cart'>
+          <button onClick={() => { addItemToCart(item.id) }}>Add To Cart</button>
         </div>
       </section>
     </main>
