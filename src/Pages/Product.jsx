@@ -11,7 +11,7 @@ function Product() {
   const item = all_product.find((item) => Number(productId) === item.id);
 
   // const product = ;
-  console.log('productId: ', productId, 'Item', Item);
+//  console.log('productId: ', productId, 'Item', Item);
 
   return <div>
     <Breadcrum item={item} />
