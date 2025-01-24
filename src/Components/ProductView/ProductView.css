@@ -2,14 +2,21 @@
 
 .product-view {
   display: flex;
+  gap: 100px;
+  margin: 0px 50px;
 }
 
 .product-view-left {
   display: flex;
   flex-direction: column;
 }
-
-.main-image 
+/* .main-img{
+  background-color: #F7F7F7;
+} */
+/* .main-img  img{
+  background-color: #F7F7F7;
+  padding: 10px;
+} */
 .image-list {
   display: flex;
   gap: 10px;
@@ -18,4 +25,8 @@
 .image-list img {
   width: 90px;
   background-color: #f7f7f7;
+}
+
+.add-to-cart button{
+  text-transform: uppercase;
 }

@@ -15,8 +15,17 @@ align-items: center;
   font-weight: 600;
   margin: 60px 170px;
   text-transform: capitalize;
+  text-decoration: none;
 }
 
+.breadcrum p {
+  color: #6e6e6e;
+  
+}
+
+.breadcrum p:hover {
+  color: var(--clr-primary-1);
+}
 .breadcrum img {
   height: 10px;
   width: 10px;
