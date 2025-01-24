@@ -1,0 +1,21 @@
+@import url(../../index.css);
+
+.product-view {
+  display: flex;
+}
+
+.product-view-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-image 
+.image-list {
+  display: flex;
+  gap: 10px;
+}
+
+.image-list img {
+  width: 90px;
+  background-color: #f7f7f7;
+}

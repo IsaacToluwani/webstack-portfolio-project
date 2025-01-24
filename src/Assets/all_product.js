@@ -31,6 +31,8 @@ const all_product = [
     category: 'headphone',
     new_price: 20000,
     old_price: 25000,
+    rating: 3,
+    ratingNo: 298,
   },
   {
     id: 2,
@@ -39,6 +41,8 @@ const all_product = [
     category: 'headphone',
     new_price: 21000,
     old_price: 25000,
+    rating: 4,
+    ratingNo: 268,
   },
   {
     id: 3,
@@ -47,6 +51,8 @@ const all_product = [
     category: 'headphone',
     new_price: 26000,
     old_price: 27000,
+    rating: 4,
+    ratingNo: 200,
   },
   {
     id: 4,
@@ -55,6 +61,8 @@ const all_product = [
     category: 'headphone',
     new_price: 22000,
     old_price: 24000,
+    rating: 3,
+    ratingNo: 278,
   },
   {
     id: 5,
@@ -63,6 +71,8 @@ const all_product = [
     category: 'headphone',
     new_price: 23000,
     old_price: 24000,
+    rating: 4,
+    ratingNo: 250,
   },
   {
     id: 6,
@@ -71,6 +81,8 @@ const all_product = [
     category: 'headphone',
     new_price: 22500,
     old_price: 24000,
+    rating: 3,
+    ratingNo: 100,
   },
   {
     id: 7,
@@ -79,6 +91,8 @@ const all_product = [
     category: 'headphone',
     new_price: 19000,
     old_price: 22000,
+    rating: 2,
+    ratingNo: '290',
   },
   {
     id: 8,
@@ -87,6 +101,8 @@ const all_product = [
     category: 'headphone',
     new_price: 21000,
     old_price: 23000,
+    rating: 4,
+    ratingNo: 265,
   },
   {
     id: 9,
@@ -95,6 +111,8 @@ const all_product = [
     category: 'headphone',
     new_price: 22500,
     old_price: 24000,
+    rating: 3,
+    ratingNo: 210,
   },
   {
     id: 10,
@@ -103,6 +121,8 @@ const all_product = [
     category: 'mouse',
     new_price: 23000,
     old_price: 24500,
+    rating: 2,
+    ratingNo: 150,
   },
   {
     id: 11,
@@ -111,6 +131,8 @@ const all_product = [
     category: 'mouse',
     new_price: 21000,
     old_price: 23300,
+    rating: 2,
+    ratingNo: 260,
   },
   {
     id: 12,
@@ -119,6 +141,8 @@ const all_product = [
     category: 'mouse',
     new_price: 22000,
     old_price: 25000,
+    rating: 4,
+    ratingNo: 260,
   },
   {
     id: 13,
@@ -127,6 +151,8 @@ const all_product = [
     category: 'mouse',
     new_price: 21100,
     old_price: 27000,
+    rating: 3,
+    ratingNo: 160,
   },
   {
     id: 14,
@@ -135,6 +161,8 @@ const all_product = [
     category: 'mouse',
     new_price: 20000,
     old_price: 29000,
+    rating: 2,
+    ratingNo: 250,
   },
   {
     id: 15,
@@ -143,6 +171,8 @@ const all_product = [
     category: 'mouse',
     new_price: 19000,
     old_price: 20000,
+    rating: 3,
+    ratingNo: 270,
   },
   {
     id: 16,
@@ -151,6 +181,8 @@ const all_product = [
     category: 'mouse',
     new_price: 26000,
     old_price: 27000,
+    rating: 3,
+    ratingNo: 245,
   },
   {
     id: 17,
@@ -159,6 +191,8 @@ const all_product = [
     category: 'radio',
     new_price: 30000,
     old_price: 32000,
+    rating: 4,
+    ratingNo: 269,
   },
   {
     id: 18,
@@ -167,6 +201,8 @@ const all_product = [
     category: 'radio',
     new_price: 31000,
     old_price: 32000,
+    rating: 4,
+    ratingNo: 269,
   },
   {
     id: 19,
@@ -175,6 +211,8 @@ const all_product = [
     category: 'radio',
     new_price: 30000,
     old_price: 32500,
+    rating: 4,
+    ratingNo: 228,
   },
   {
     id: 20,
@@ -183,6 +221,8 @@ const all_product = [
     category: 'radio',
     new_price: 30300,
     old_price: 32000,
+    rating: 2,
+    ratingNo: 267,
   },
   {
     id: 21,
@@ -191,6 +231,8 @@ const all_product = [
     category: 'radio',
     new_price: 31000,
     old_price: 32000,
+    rating: 2,
+    ratingNo: 233,
   },
   {
     id: 22,
@@ -199,6 +241,8 @@ const all_product = [
     category: 'radio',
     new_price: 29000,
     old_price: 32500,
+    rating: 4,
+    ratingNo: 233,
   },
   {
     id: 23,
@@ -207,6 +251,8 @@ const all_product = [
     category: 'radio',
     new_price: 30000,
     old_price: 32000,
+    rating: 2,
+    ratingNo: 266,
   },
   {
     id: 24,
@@ -215,6 +261,8 @@ const all_product = [
     category: 'radio',
     new_price: 30000,
     old_price: 32000,
+    rating: 2,
+    ratingNo: 240,
   },
 ];
 
