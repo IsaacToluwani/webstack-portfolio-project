@@ -9,7 +9,7 @@ function Item(props) {
         <img src={props.image} alt='' className='item-image' />
       </Link>
       
-        <p>{props.name}</p>
+        <h4>{props.name}</h4>
       <div className=''>
         <p className='new-price'>${props.new_price} </p>
         <p className='old-price'>${props.old_price} </p>

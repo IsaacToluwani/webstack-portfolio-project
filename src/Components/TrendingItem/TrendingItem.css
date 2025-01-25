@@ -1,0 +1,14 @@
+@import url(../../index.css);
+
+.trending {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  
+  align-items: center;
+}
+
+.trending-item {
+  display: flex;
+  gap: 30px;
+}

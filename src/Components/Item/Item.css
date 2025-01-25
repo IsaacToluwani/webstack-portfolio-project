@@ -1,4 +1,21 @@
+@import url('../../index.css');
+
 .item-image {
   display: block;
+  width: 270px; 
+  height: 300px;
+  object-fit: contain;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for both transform and box-shadow */
 }
 
+.item-image:hover {
+  transform: scale(1.1); /* Grow the image */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Slightly increase the shadow */
+}
+
+.item h4 {
+  width: 270px;
+  font-size: 16px;
+  font-weight: 500;
+}
