@@ -27,16 +27,14 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <div className='cart'>
+      <div className='header-cart'>
         <button className='btn btn:hover'>
           <Link to='/signin'>Login</Link>
         </button>
         <Link to='cart'>
           <img src={cart_icon} alt='' />
         </Link>
-        <Link to='cart'>
-          test
-        </Link>
+       
       </div>
     </div>
   );

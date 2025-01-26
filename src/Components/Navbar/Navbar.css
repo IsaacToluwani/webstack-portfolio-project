@@ -17,13 +17,14 @@
   gap: 20px;
 }
 
-.cart {
+.header-cart {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 10px;
 }
 
-.cart img {
+.header-cart img {
   width: 20px;
   height: 20px;
 }
