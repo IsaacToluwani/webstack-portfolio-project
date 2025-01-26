@@ -15,7 +15,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/product/:productId' element={<Product />} /> 
+            <Route path='/product/:productId' element={<Product />} />
             <Route path='/mouse' element={<StoreCategory category='mouse' />} />
             <Route path='/radio' element={<StoreCategory category='radio' />} />
             <Route
@@ -23,8 +23,7 @@ function App() {
               element={<StoreCategory category='headphone' />}
             />
             <Route path='/signin' element={<SignInSignUP />} />
-            <Route Path='/cart' element={<Cart />} />
-           
+            <Route path='/cart' element={<Cart />} />
           </Routes>
         </Router>
       </StoreProvider>
