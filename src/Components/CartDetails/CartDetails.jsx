@@ -30,7 +30,9 @@ const CartDetails = () => {
                   />
                   <p>{product.name}</p>
                   <p>${product.new_price} </p>
-                  <p>{cartItems[product.id]}</p>
+                  <button className='cart-quantity'>
+                    {cartItems[product.id]}
+                  </button>
                   <p>${product.new_price * cartItems[product.id]}</p>
                 </div>
                 <hr />
@@ -40,38 +42,37 @@ const CartDetails = () => {
           return null;
         })}
       </div>
-      <div className="cart-right-side">
-        
-      <div className='cart-sidebar'>
-        <div className='cart-summary'>
-          <h3>Summary</h3>
-          <div>
-            <div className='cart-subtotal'>
-              <p>Subtotal</p>
-              <p>${getTotalCartAmount()}</p>
+      <div className='cart-right-side'>
+        <div className='cart-sidebar'>
+          
+            <h3>Summary</h3>
+            <div>
+              <div className='cart-subtotal'>
+                <p>Subtotal</p>
+                <p>${getTotalCartAmount()}</p>
+              </div>
+              <hr />
+              <div className='cart-subtotal shipping'>
+                <p>Shipping</p>
+                <p>Free</p>
+              </div>
+              <hr />
+              <div className='cart-subtotal cart-total'>
+                <h4>Order Total</h4>
+                <h4>${getTotalCartAmount()}</h4>
+              </div>
             </div>
-            <hr />
-            <div className='cart-subtotal shipping'>
-              <p>Shipping</p>
-              <p>Free</p>
+            <div className='cart-promocode'>
+              <p>Apply Discount Code</p>
+              <div className='cart-promobox'>
+                <input type='text' placeholder='promo code' />
+                <button>Submit</button>
+              </div>
+              <button>PROCEED TO CHECKOUT</button>
             </div>
-            <hr />
-            <div className='cart-total'>
-              <h4>Order Total</h4>
-              <h4>${getTotalCartAmount()}</h4>
-            </div>
-          </div>
-          <div className='cart-promocode'>
-            <p>Apply Discount Code</p>
-            <div className='cart-promobox'>
-              <input type='text' placeholder='promo code' />
-              <button>Submit</button>
-            </div>
-            <button>PROCEED TO CHECKOUT</button>
-          </div>
+          
         </div>
       </div>
-</div>
     </div>
   );
 };

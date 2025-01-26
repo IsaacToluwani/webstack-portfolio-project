@@ -1,0 +1,6 @@
+@import url('../../index.css');
+
+.hero {
+  height: 100vh;
+  display: flex;
+}

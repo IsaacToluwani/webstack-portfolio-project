@@ -33,8 +33,23 @@
   width: 70px;
 }
 
+.cart-quantity {
+  width: 64.5px;
+  height: 51.113px;
+  border: 2px solid #ebebeb;
+  background: #fff;
+}
+
 
 /* SideBar */
 .cart-right-side {
   width: 440px;
+  background: #F5F5F5;
+  padding: 20px;
+}
+
+.cart-subtotal {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
 }

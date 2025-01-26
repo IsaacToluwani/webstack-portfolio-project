@@ -1,11 +1,14 @@
-import React from 'react'
-import TrendingItem from '../Components/TrendingItem/TrendingItem'
-
+import React from 'react';
+import TrendingItem from '../Components/TrendingItem/TrendingItem';
+import Hero from '../Components/Hero/Hero';
 
 function home() {
   return (
-    <TrendingItem />
-  )
+    <div className='home'>
+      <Hero />
+      <TrendingItem />
+    </div>
+  );
 }
 
-export default home
+export default home;
