@@ -9,7 +9,7 @@ function Hero() {
 <h1>bestsdfsdf</h1>
       </div>
       <div className="hero-img">
-        <img src="../../Assets/product_14.png" alt="" />
+        <img src={ mouse} alt="" />
       </div>
     </div>
   )
