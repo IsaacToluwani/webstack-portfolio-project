@@ -33,11 +33,23 @@ export const StoreProvider = ({ children }) => {
     return total;
   };
 
+  const getTotalCartProducts = () => {
+    let totalProduct = 0;
+    for (const product in cartItems) {
+      if (cartItems[product] > 0) {
+        totalProduct += cartItems[product];
+      }
+    }
+    return totalProduct;
+  };
+
   const ContextValue = {
     all_product,
     cartItems,
     addItemToCart,
-    removeFromCart, getTotalCartAmount
+    removeFromCart,
+    getTotalCartAmount,
+    getTotalCartProducts,
   };
 
   return (

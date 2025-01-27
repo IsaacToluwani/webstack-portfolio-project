@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 
 import logo from '../../Assets/betrack-high-resolution-logo.png';
 import cart_icon from '../../Assets/cart_icon.png';
+import { StoreContext } from '../../Context/StoreContext';
 
 function Navbar() {
+  const { getTotalCartProducts } = useContext(StoreContext);
+
   return (
     <div className='nav'>
       <div className='nav-logo'>
         <Link to='/'>
-        <img src={logo} alt='' />
+          <img src={logo} alt='' />
         </Link>
       </div>
       <div className='nav-menu'>
@@ -36,7 +39,7 @@ function Navbar() {
         <Link to='cart'>
           <img src={cart_icon} alt='' />
         </Link>
-       
+        <div className='nav-cart-count'>{getTotalCartProducts()}</div>
       </div>
     </div>
   );
