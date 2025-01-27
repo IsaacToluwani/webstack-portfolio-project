@@ -62,14 +62,8 @@ const CartDetails = () => {
                 <h4>${getTotalCartAmount()}</h4>
               </div>
             </div>
-            <div className='cart-promocode'>
-              <p>Apply Discount Code</p>
-              <div className='cart-promobox'>
-                <input type='text' placeholder='promo code' />
-                <button>Submit</button>
-              </div>
-              <button>PROCEED TO CHECKOUT</button>
-            </div>
+          
+              <button className='btn checkout-btn'>PROCEED TO CHECKOUT</button>
           
         </div>
       </div>

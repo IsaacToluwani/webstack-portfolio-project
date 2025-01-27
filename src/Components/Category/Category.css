@@ -1,0 +1,43 @@
+
+@import url(../../index.css);
+
+.home-category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+.home-category-all {
+display: flex;
+
+gap: 80px;
+margin-top: 50px;
+
+}
+
+.home-category h4 {
+  color: #1e1e1e;
+}
+
+.home-category img {
+  display: block;
+  height: 180px;
+  width: 200px;
+}
+
+.categories {
+  width: 270px; 
+  height: 300px;
+  margin-left: 0px;
+  padding-left: 0px;
+  object-fit: contain;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  padding: 20px;
+}
+
+.categories:hover {
+  transform: scale(1.1); /* Grow the image */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Slightly increase the shadow */
+}

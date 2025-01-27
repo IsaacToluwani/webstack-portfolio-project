@@ -24,18 +24,24 @@ function ProductView({ item }) {
         <h3>{item.name}</h3>
         <div className='product-rating'>
           <StarRating rating={item.rating} />
+          <div className="product-item-rating">
+
           <p>{item.ratingNo}</p>
-          <span>Reviews</span>
+          <p>Reviews</p>
+          </div>
         </div>
         <div className='product-pricing'>
           <div className=''>{item.new_price}</div>
-          <div>${item.old_price}</div>
+          <div className='product-old-price'>${item.old_price}</div>
         </div>
         <div className='choose-size'>
           <h4>Choose Sizes</h4>
+          <div className="size-buttons">
           <button>S</button>
+            
           <button>L</button>
           <button>XL</button>
+          </div>
         </div>
         <div className='add-to-cart'>
           <button onClick={() => { addItemToCart(item.id) }}>Add To Cart</button>
