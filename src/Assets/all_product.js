@@ -108,7 +108,7 @@ const all_product = [
     id: 9,
     name: 'CMOTION Wireless Optical Computer Mouse',
     image: p9_img,
-    category: 'headphone',
+    category: 'mouse',
     new_price: 22500,
     old_price: 24000,
     rating: 3,

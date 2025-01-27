@@ -29,3 +29,21 @@
   width: 20px;
   height: 20px;
 }
+
+
+
+.nav a {
+  color: #1e1e1e;
+}
+
+.nav a:hover {
+  color: var(--clr-primary-1);
+}
+
+.nav a:active {
+  color: var(--clr-primary-1);
+}
+
+.header-cart img:hover {
+  background-color: var(--clr-primary-1);
+}

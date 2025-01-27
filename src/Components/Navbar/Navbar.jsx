@@ -9,7 +9,9 @@ function Navbar() {
   return (
     <div className='nav'>
       <div className='nav-logo'>
+        <Link to='/'>
         <img src={logo} alt='' />
+        </Link>
       </div>
       <div className='nav-menu'>
         <ul>
